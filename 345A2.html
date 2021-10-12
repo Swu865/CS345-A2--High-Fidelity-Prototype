@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<title>Book Program Discussion home page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="aa.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+<style>
+h1,h2,h3,h5,h6 {font-family: 'Indie Flower', cursive;} 
+body,h4 {font-family: 'Rajdhani', sans-serif;} 
+</style>
+
+<body id="HomePage">
+
+<!-- Navbar -->
+<div class="w3-top ">
+ <div class="w3-bar w3-theme-d2 w3-left-align" >
+  
+  <a href="#" class="w3-bar-item w3-button custom-background-color" ><i class="fa fa-home w3-margin-right" ></i>BPD</a>
+  
+
+  
+  <a href="#News" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+  <a href="#Books" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Books</a>
+  <a href="#GetStarted" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Get Started</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact Us</a>
+    
+ <a href="#" >
+  	<button  class=" w3-hover-white w3-bar-item w3-button w3-hide-small w3-right custom-color1 custom-background-color" id="Reg">Register</button></a>	
+   
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-white " >Login</a>
+   										
+ </div>
+ 
+<!-- Navbar on small screens -->
+  
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="banner-books.png" alt="read-book" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+	<img src="logo.png" alt="logo" style="width:45%" class="w3-circle w3-hover-opacity" >
+  </div>
+</div>
+
+
+<!-- Registration Modal -->
+<div class="modal fade" id="trigger-modal" role="dialog">
+    <div class="modal-dialog w3-modal-content w3-card-4 w3-animate-top">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header ">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title w3-container     w3-center"><strong>Registration</strong></h1>
+        </div>
+        
+        <form action="http://www.example.com/example.htm" target="_blank">
+        <div class="modal-body">
+        
+        
+        
+         <div id="UserDetails">    
+    <h3><strong>User Details</strong></h3> 
+    
+  	
+     <input class="w3-input w3-section w3-border "   type="text" placeholder="Given name" required name="Given name">
+     <input class="w3-input w3-section w3-border" type="text" placeholder="Surname" required name="Surname">
+     <input class="w3-input w3-section w3-border" type="text" placeholder="Username" required name="Username">
+     <input class="w3-input w3-section w3-border" type="text" placeholder="Password" required name="Password">
+      </div>
+      
+	<div id="Addresses">
+    <h3><strong>Addresses</strong></h3>
+      <input class="w3-input w3-border" type="text" placeholder="Home Address" required name="Home Address">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Work Address" required name="Work Address">         
+    </div>
+    
+    <div id="Contacts">
+    <h3><strong>Contacts</strong></h3>
+     <input class="w3-input w3-border " type="text" placeholder="Mobile Number" required name="Mobile Number">
+     <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">         
+    </div>
+        </div>
+        
+        
+        <div class="modal-footer w3-container w3-padding-16 w3-center ">
+          
+          <button class="w3-button w3-black  " type="submit">Creat Your Account</button>
+    	</div>
+          
+        
+        </form>
+      </div>
+      
+    </div>
+  </div>
+
+<!-- News -->
+<div class="w3-row w3-padding-64 w3-center w3-margin" id="News" >  
+<!-- part1 -->
+
+  <div class="w3-col  w3-container" style="width:38.2%">
+    <div class="w3-card-4" >
+    <header class="w3-container  w3-padding-16 w3-center custom-color1 custom-background-color">
+      <h1 ><strong>Our purpose</strong></h1>
+    </header>
+
+    <div class="w3-container w3-theme-l5  w3-padding-16">
+      <p >Book Discussion Scheme lends books & professionally prepared discussion notes to book groups. Groups receive enough copies of their selected title to allow everyone in the group to read the same book at the same time. </p>
+<p>
+We're a nationwide non-profit organisation with a 46-year track record. We try to keep our membership costs affordable for everyone, while offering a range of programmes and titles to suit a wide range of reading tastes - from classics to the lastest page-turners. There's 1000+ fiction & non-fiction titles to choose from.  We can help you join an existing group, or you can register your group with us. </p>
+<a href="#News" class="w3-right back custom-color" >Show more</a>
+    </div>
+
+  </div>
+  
+  </div>
+<!-- part2 -->
+  <div class="w3-col  w3-container " style="width:61.8%">
+  <header class="w3-container  w3-padding-16 w3-center custom-color1 custom-background-color">
+      <h1 ><strong>Latest News</strong></h1>
+    </header>
+    
+    <div class="w3-container w3-theme-l5 w3-padding-16">
+
+<div class="w3-row"><br>
+ <div class="w3-half">
+  <img src="bds.png" alt="group-of-people" style="width:60%" class=" w3-hover-opacity">
+  <h3 > <strong>If you're still looking for a book group</strong> </h3>
+  <p>We're hosting a series of online and face-to-face events during May designed specifically to bring together people interested in starting </p>
+  <a href="#News" class="w3-right back custom-color" >Show more</a>
+</div>
+
+<div class="w3-half">
+  <img src="library-world-travel.png" alt="a-woman" style="width:70%" class=" w3-hover-opacity">
+  <h3 > <strong> Library Reading Recommendations</strong></h3>
+
+  <p>If you're looking for your next in-between-book-club read, there's no better place to start than your local library.</p>
+  <a href="#News" class="w3-right back custom-color" >Show more</a>
+  </div>
+
+     
+    </div>
+
+    
+    </div>
+    
+  </div>
+  
+</div>
+
+<!-- Books -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="Books">
+
+<div class="w3-quarter w3-center">
+<h2><strong>Books</strong></h2>
+<p>
+We have an extensive catalogue of fiction and non-fiction titles available for loan. With 100s of titles to choose from - across a range of genres and including classics to the latest reads - there's something to appeal to all tastes! New titles are added to our collection throughout the year.
+We have multiple copies of each title (book sets), so more than one group can read the same title at the same time. We currently have more than 50,000 books on our shelves.</p>
+</div>
+
+
+
+<div class="w3-quarter w3-padding-16 ">
+<div class="w3-card  w3-theme-l2 ">
+
+  <img src="meet-me-at-the-museum.png" alt="Book-Cover" style="width:60%" class=" w3-hover-opacity"  >
+
+  <div class="w3-container">  
+  <header class="w3-container custom-background-color w3-display-container w3-padding-16 ">
+  <h3><strong>Online Catalogue</strong></h3>
+  </header>  
+  <p >Click here to view and search the online version of the BDS Catalogue
+PDF Catalogue</p>
+<a href="#Books" class="w3-right custom-color2" >Show more</a>
+  </div>
+  </div>
+</div>
+
+
+<div class="w3-quarter w3-padding-16">
+<div class="w3-card  w3-theme-l2">
+
+  <img src="being-chinese.png" alt="Book-Cover" style="width:60%" class=" w3-hover-opacity"  >
+
+  <div class="w3-container">  
+  <header class="w3-container custom-background-color w3-display-container w3-padding-16 ">
+  <h3><strong>PDF Catalogue</strong> </h3>
+  </header>  
+  <p >
+Click here to flip through the pages of the interactive PDF catalogue  </p>
+<a href="#Books" class="w3-right custom-color2" >Show more</a>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter w3-padding-16">
+<div class="w3-card  w3-theme-l2">
+
+  <img src="sound-of-a-wild-snail-eating.png" alt="Book-Cover" style="width:60%" class=" w3-hover-opacity" >
+
+  <div class="w3-container">  
+  <header class="w3-container custom-background-color w3-display-container w3-padding-16 ">
+  <h3><strong>Staff Picks</strong> </h3>
+  </header>  
+  <p >Staff and volunteers share some of their favourite reads from the scheme.</p>
+  <a href="#Books" class="w3-right custom-color2" >Show more</a>
+  
+  </div>
+  </div>
+  
+</div>
+</div>
+
+
+
+<!-- GetStarted -->
+<div class="w3-row-padding w3-center w3-padding-64  " id="GetStarted">
+    <h2><strong>Get Started</strong></h2>
+    <p>Here's info on how to become part of our nationwide reading community. </p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li style="background-color:#735967;">
+          <p class="w3-xlarge custom-color1" >How group works</p>
+        </li>
+        <li class="w3-padding-48">Our membership programmes explained here...</li>
+
+        <li class="w3-theme-l5 w3-padding-16">
+          <button class="w3-button  w3-padding-large custom-color1" style="background-color:#735967;"> Show More</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li style="background-color:#A18594;">
+          <p class="w3-xlarge custom-color1 background-color:#A18594" >What's the cost?</p>
+        </li>
+        <li class="w3-padding-48">You'll find our membership fees here... </li>
+
+        <li class="w3-theme-l5 w3-padding-16">
+          <button class=" w3-button  w3-padding-large custom-color1"  style="background-color:#A18594;">See the cost</button> 
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li style="background-color:#735967;">
+          <p class="w3-xlarge custom-color1" >Join or Register a group</p>
+        </li>
+        <li class="w3-padding-48">Let's start and join/ a reading group...</li>
+
+        <li class="w3-theme-l5 w3-padding-16">
+          <button class="w3-button  w3-padding-large custom-color1" style="background-color:#735967;">Join/Register a group</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16 "><span class="w3-xlarge w3-border-gray  w3-bottombar">Contact Us</span></div>
+      <h4>Address</h4>
+      
+      <p>Swing by for a cup of coffee, or whatever.</p>
+      <p><i class="fa fa-map-marker custom-color w3-xlarge"></i>  425 Colombo Street Sydenham Christchurch 8023</p>
+      <p><i class="fa fa-phone custom-color w3-xlarge"></i>  +64 03 365 6210</p>
+      <p><i class="fa fa-envelope-o custom-color w3-xlarge"></i>  bds@bds.org.nz</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      
+      <button type="submit" class="w3-button w3-right custom-color1 custom-background-color  " >Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Image of map -->
+<img src="location.png" alt="map" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large custom-background-color" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large custom-background-color" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large custom-background-color" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large custom-background-color" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large custom-background-color w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by <a href="http://www.chreos.com/" target="_blank">chreos</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding custom-background-color w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#HomePage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+
+
+///js for modal keyboard accessibility
+$(document).ready(function(){
+  $("#Reg").click(function(){
+    $("#trigger-modal").modal({keyboard: true});
+  });
+  
+});
+
+</script>
+
+</body>
+</html>
